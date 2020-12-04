@@ -1,0 +1,101 @@
+* {
+  font-family: "Press Start 2P", cursive;
+}
+
+.grid {
+  display: grid;
+  margin: 5rem auto;
+  grid-template-columns: 350px 320px 200px;
+  width: 68%;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game-board {
+  border: solid 2px;
+}
+
+.play-button {
+  background-color: #4caf50;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+#pause-btn {
+  display: none;
+}
+
+#sound-speaker {
+  font-size: 30px;
+}
+
+.sound-item {
+  cursor: pointer;
+}
+
+.controls {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.controls .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: silver;
+  position: absolute;
+  top: 0;
+  left: 55px;
+}
+
+.controls .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: silver;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 55px;
+}
+
+.controls .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: silver;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 55px;
+}
+
+.controls .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: silver;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 55px;
+}
